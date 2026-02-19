@@ -11,6 +11,10 @@ body {
 main {
     line-height: 1.5;
     flex-grow: 1;
+    font-size: 1rem;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+    margin-right: 0px;
 }
 
 nav {
@@ -35,4 +39,12 @@ figcaption {
 
 a {
     color: #6fffec;
+}
+
+main>h1 {
+    font-size: 1.5rem;
+}
+
+header>h1 {
+    font-size: 2.2rem;
 }
