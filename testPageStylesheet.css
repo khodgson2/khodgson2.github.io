@@ -42,12 +42,12 @@ footer {
 
 nav>p>a {
     text-decoration: none;
-    color: #91a9ff;
-    transition: color 1.5s;
+    color: #a5b9ff;
+    transition: color 1.25s;
 }
 
 nav>p>a:hover {
-    color: #9dff00;
+    color: #8cffd3;
 }
 
 nav>p>a:active {
