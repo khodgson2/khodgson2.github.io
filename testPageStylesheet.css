@@ -1,29 +1,57 @@
+html {
+    min-height: 100vh;
+}
+
 body {
     font-family: monospace;
-    color: #ffffff;
+    color: #c7f4ff;
     background: linear-gradient(#000d4d, #000000);
     display: flex;
     flex-direction: column;
     min-height: 100 vh;
-    margin: 3%;
+    padding: 3%;
+}
+
+header {
+    flex: none;
 }
 
 main {
     line-height: 1.5;
-    flex-grow: 1;
+    flex: 1;
     font-size: 1rem;
-    margin-top: 7vh;
-    margin-bottom: 7vh;
-    margin-right: 0px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 0px;
 }
 
 nav {
     display: flex;
+    flex: none;
     flex-direction: row;
     justify-content: left;
     font-size: 1.08rem;
+    font-style: italic;
     flex-wrap: wrap;
     column-gap: 3%;
+}
+
+footer {
+    flex: none;
+}
+
+nav>p>a {
+    text-decoration: none;
+    color: #91a9ff;
+    transition: color 1.5s;
+}
+
+nav>p>a:hover {
+    color: #9dff00;
+}
+
+nav>p>a:active {
+    color: #ffffff;
 }
 
 nav>p {
@@ -34,11 +62,11 @@ nav>p {
 }
 
 figcaption {
-    color: #ffffffd0;
+    color: #ffffffb4;
 }
 
 a {
-    color: #6fffec;
+    color: #63ffd5;
 }
 
 main>h1 {
